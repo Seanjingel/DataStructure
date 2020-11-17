@@ -1,5 +1,7 @@
 package com.DS.Arrays;
 
+import java.util.Arrays;
+
 public class InsertElementAtBegining {
 	public static void main(String[] args) {
 		int[] arr = new int[4];
@@ -13,9 +15,7 @@ public class InsertElementAtBegining {
 		}
 		arr[0] = 5;
 		
-		for(int i : arr) {
-			System.out.println(i);
-		}
+		System.out.println(Arrays.toString(arr));
 	}
 
 }
